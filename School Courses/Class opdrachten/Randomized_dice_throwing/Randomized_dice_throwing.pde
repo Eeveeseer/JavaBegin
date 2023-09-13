@@ -18,7 +18,8 @@ float B = random(1,6);
 int steen2 = int(B);
 float C = random(1,7);
 int steen3 = int(C);
-String resultaat = steen1 + steen2 + steen3 + " HIT!";
+int Gemiddelde = (steen1 + steen2 + steen3) / 3;
+String resultaat = steen1 + steen2 + steen3 + " HIT! Je hebt " + Gemiddelde + " damage gedaan";
 
 
 //Je code komt hier
